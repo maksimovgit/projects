@@ -1,0 +1,14 @@
+{
+	"name": "app",
+	"autoload": {
+		"psr-4": {
+			"app\\": "app",
+			"app\\router\\": "app/router",
+			"app\\controllers\\": "app/controllers",
+			"app\\dataio\\": "app/dataio",
+			"app\\product\\": "app/product",
+			"app\\request\\": "app/request",
+			"app\\auth\\": "app/auth"
+		}
+	}
+}
